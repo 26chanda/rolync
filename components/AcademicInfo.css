@@ -1,0 +1,104 @@
+.academic-info-container {
+  background: #F5F5F7;
+  height: 100vh;
+}
+
+.academic-info-form {
+  background: #FFFFFF;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  max-width: 551px;
+  width: 100%;
+  margin: auto;
+  text-align: center; 
+}
+
+.academic-info-logo {
+  position: absolute;
+  top: 20px; 
+  left: 20px; 
+  font-size: 24px;
+  font-weight: bold;
+  z-index: 10; 
+}
+
+.academic-info-logo img {
+  max-width: 130px; 
+  height: auto;
+  margin-top: -25px;
+  margin-left: 50px;
+}
+
+
+.academic-text {
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 40px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.form-control, .form-select {
+  width: 100%;
+  height: 40px;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(153, 153, 153, 0.97);
+  border-radius: 4px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  color: rgba(0, 0, 0, 0.5); 
+}
+
+.form-control:focus, .form-select:focus {
+  color: #000000; 
+}
+
+.form-control option, .form-select option {
+  color: #000000; 
+}
+
+.continue-btn {
+  border: none !important;
+  margin-top: 20px;
+  width: 100%;
+  height: 35px;
+  padding: 5px;
+  border-radius: 10px !important;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4) !important;
+  color: #ffffff !important;
+  font-weight: bold !important;
+  background-color: #00BBF0 !important;
+  outline: none !important; 
+}
+
+.continue-btn.valid {
+  background-color: #00BBF0 !important;
+  cursor: pointer !important;
+}
+
+.continue-btn.invalid {
+  background-color: #00BBF0 !important; 
+  opacity: 0.7 !important;
+  cursor: not-allowed !important;
+}
+
+.button-with-shadow {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4) !important;
+}
+
+.form-select {
+  position: relative;
+  appearance: none; 
+}
+
+.form-select::after {
+  content: "▼";
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: rgba(153, 153, 153, 0.97);
+  font-size: 14px;
+}

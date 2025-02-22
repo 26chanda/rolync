@@ -1,0 +1,104 @@
+.login-container {
+  background: #F5F5F7;
+  height: 100vh;
+}
+
+.login-left-side {
+  text-align: center;
+}
+
+.login-left-side img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.login-left-side h3 {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.login-form {
+  background: #FFFFFF;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  max-width: 451px;
+  width: 100%;
+  margin: auto;
+}
+
+.login-welcome-text {
+  color: rgba(0, 0, 0, 0.37);
+  margin-bottom: 40px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.login-form-control {
+  width: 100%;
+  height: 40px;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(153, 153, 153, 0.97);
+  border-radius: 4px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+
+.login-form-label {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.login-show-password {
+  position: absolute;
+  right: 10px;
+  padding-top: 4px;
+  top: 5px !important;
+  color: #00BBF0;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.login-form .login-btn {
+  background-color: #00BBF0 !important;
+  border: none;
+  margin-top: 10px;
+  width: 100%;
+  height: 35px;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+  color: #ffffff !important;
+  font-weight: bold;
+}
+
+.login-form .signup-btn {
+  background-color: #42B72A !important;
+  border: none;
+  margin-top: 10px;
+  width: 100%;
+  height: 35px;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+  color: #ffffff !important;
+  font-weight: bold;
+}
+
+.login-signup-note {
+  color: #000000 !important;
+  font-size: 11px !important;
+  text-align: right !important;
+  margin-top: 2px !important;
+}
+
+.login-forgot-password {
+  text-align: center !important;
+  margin-top: 10px !important;
+}
+
+.login-forgot-password a {
+  color: #007bff !important;
+}
+

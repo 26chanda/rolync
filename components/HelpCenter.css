@@ -1,0 +1,223 @@
+html, body {
+  overflow-x: hidden; /* Fix potential horizontal overflow */
+}
+
+.container-fluid {
+  padding: 0;
+  background-color: #F5F5F7;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden
+}
+
+
+.header-row {
+  background-color: #333333;
+  padding: 10px 0;
+}
+
+.header-col {
+  color: #FFFFFF;
+  text-align: center;
+  cursor: pointer;
+}
+
+.header-col-logo {
+  padding-left: 40px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header-col-search {
+  background-color: #444444;
+  border-color: #444444;
+  color: #B0B0B0;
+}
+
+.sidebar {
+  background-color: #FFFFFF;
+  padding: 20px;
+}
+
+.profile-picture {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #E0E0E0;
+  margin: 0 auto;
+}
+
+.profile-name {
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.sidebar-item {
+  font-weight: bold;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.sidebar-item:hover {
+  text-decoration: underline; /* Add underline effect on hover */
+}
+
+.sidebar-role {
+  margin-bottom: 10px;
+}
+
+.sidebar-more {
+  color: red;
+  cursor: pointer;
+}
+
+.main-content {
+  padding: 20px;
+}
+
+.content-section {
+  background-color: #FFFFFF;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.people-with-us {
+  margin-top: 20px;
+}
+
+.person-card {
+  word-wrap: break-word; /* Allow long words to break */
+  white-space: normal; /* Allow text to wrap */
+}
+
+.carousel-wrapper {
+  padding: 10px;
+}
+
+.company-logos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  text-decoration: underline; /* Add underline effect on hover */
+}
+
+/* --- Responsive Media Queries --- */
+
+@media (max-width: 576px) {
+  .container-fluid {
+    padding: 0 10px; /* Reduce padding on smaller screens */
+  }
+
+  .header-col-logo {
+    font-size: 18px; /* Smaller font for mobile */
+    padding-left: 10px; /* Adjust padding */
+  }
+
+  .sidebar {
+    padding: 10px; /* Less padding on mobile */
+  }
+
+  .profile-picture {
+    width: 80px; /* Smaller profile picture on mobile */
+    height: 80px;
+  }
+
+  .main-content {
+    padding: 10px; /* Reduce padding on smaller screens */
+  }
+
+  .person-card {
+    padding: 10px; /* Smaller padding for person cards on mobile */
+  }
+
+  .company-logos {
+    flex-direction: column; /* Stack logos on mobile */
+    align-items: center;
+  }
+
+  .responsive-button {
+    font-size: 16px; /* Smaller button font for mobile */
+    padding: 10px 20px;
+  }
+}
+
+/* For tablets */
+@media (min-width: 577px) and (max-width: 768px) {
+  .container-fluid {
+    padding: 0 20px;
+  }
+
+  .header-col-logo {
+    font-size: 20px;
+  }
+
+  .profile-picture {
+    width: 90px;
+    height: 90px;
+  }
+
+  .main-content {
+    padding: 15px;
+  }
+
+  .person-card {
+    padding: 15px;
+  }
+
+  .company-logos {
+    justify-content: space-between; /* Evenly distribute logos on tablets */
+  }
+
+  .responsive-button {
+    font-size: 18px;
+    padding: 12px 30px;
+  }
+}
+
+/* For large screens (desktops) */
+@media (min-width: 769px) {
+  .container-fluid {
+    padding: 0 40px;
+  }
+
+  .header-col-logo {
+    font-size: 24px;
+  }
+
+  .profile-picture {
+    width: 100px;
+    height: 100px;
+  }
+
+  .main-content {
+    padding: 20px;
+  }
+
+  .person-card {
+    padding: 20px;
+  }
+
+  .company-logos {
+    justify-content: space-around;
+  }
+
+  .responsive-button {
+    font-size: 20px;
+    padding: 15px 40px;
+  }
+}

@@ -1,0 +1,8 @@
+.phone-input-container .form-control:focus {
+    border-color: #007bff !important;  
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);  
+  }
+  
+  input[type="text"]:focus, input[type="email"]:focus {
+    border-color: #007bff;
+  }
